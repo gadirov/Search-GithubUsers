@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+
+/* GithubSearchHeaderText */
+.GithubSearchHeaderText{
+    text-align: center;
+    font-size: 48px;
+}
+.searchSection{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.searchSection input{
+    width: 15vw;
+    height:3vh;
+    font-size: 20px;
+}
+.searchSection button{
+    font-size: 20px;
+}
+.notFound{
+    margin: 100px 0;
+    text-align: center;
+}
+
+.profile_area{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid  rgba(19, 18, 18, .4);;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img{
+    width: 100%;
+}
+.fullName{
+    margin: 10px 10px;
+}
+.bio{
+    font-size: 18px;
+    margin:0 10px 20px 10px;
+}
+.followersSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+
